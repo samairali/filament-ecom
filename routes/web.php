@@ -25,3 +25,4 @@ Route::get('/register', RegisterPage::class)->name('register');
 Route::get('/login', LoginPage::class)->name('login');
 Route::get('/reset', ResetPasswordPage::class)->name('reset.password');
 Route::get('/forgot', ForgotPasswordPage::class)->name('forgot.password');
+Route::get('/forgot', ForgotPasswordPage::class)->name('check');
